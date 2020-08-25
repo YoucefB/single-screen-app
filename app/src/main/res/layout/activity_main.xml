@@ -23,7 +23,7 @@
         android:layout_weight="0"
         android:text="@string/company_descript"
         android:gravity="center_horizontal"
-        android:textSize="20sp" />
+        android:textSize="@dimen/big_text_size" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,9 +35,9 @@
 
         <ImageView
             android:id="@+id/phone_icon"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            app:tint="#9ebb15"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            app:tint="@color/colorPrimary"
             app:srcCompat="@drawable/ic_phone_black_24dp" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="8dp"
             android:text="@string/phone"
-            android:textSize="18sp" />
+            android:textSize="@dimen/normal_text_size" />
     </LinearLayout>
 
     <LinearLayout
@@ -60,9 +60,9 @@
 
         <ImageView
             android:id="@+id/email_icon"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            app:tint="#9ebb15"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            app:tint="@color/colorPrimary"
             app:srcCompat="@drawable/ic_email_edit_black_24dp" />
 
         <TextView
@@ -72,7 +72,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="8dp"
             android:text="@string/email"
-            android:textSize="18sp" />
+            android:textSize="@dimen/normal_text_size" />
     </LinearLayout>
 
     <LinearLayout
@@ -85,9 +85,9 @@
 
         <ImageView
             android:id="@+id/address_icon"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
-            app:tint="#9ebb15"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            app:tint="@color/colorPrimary"
             app:srcCompat="@drawable/ic_map_marker_black_24dp" />
 
         <TextView
@@ -98,7 +98,7 @@
             android:gravity="center_horizontal"
             android:layout_marginLeft="2dp"
             android:text="@string/address"
-            android:textSize="18sp"
+            android:textSize="@dimen/normal_text_size"
             />
     </LinearLayout>
 </LinearLayout>
